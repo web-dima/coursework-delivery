@@ -1,0 +1,15 @@
+{
+  "name": "delivery",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
